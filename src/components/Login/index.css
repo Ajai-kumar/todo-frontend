@@ -1,0 +1,75 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#05FF3B,#17FA48,#3BF864,#60FA82) ;
+    min-height: 100vh;
+}
+.card{
+    background-color: #fff;
+    width: 410px;
+    padding: 5%;
+    border-radius: 10px;  
+}
+.heading{
+    color: #05FF3B;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-container{
+    margin-bottom: 30px ;
+}
+label{
+    font-size: 16px;
+    color: #2ba71e;
+    font-weight: 600;
+}
+.input{
+    height: 35px;
+    width: 100%;
+    background-color:#fff ;
+    color: #000;
+    border: 2px solid silver;
+    outline: none;
+}
+input:focus{
+    border: 2px solid #05FF3B;
+}
+.forget_pass{
+    margin-top:-8px;
+}
+.link{
+    color: #0AB75D;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.login-btn{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: #05FF3B;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.signup-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    color: rgb(60, 60, 60);
+    font-weight: 600;
+}
+.err{
+    text-align: center;
+    color:red;
+}

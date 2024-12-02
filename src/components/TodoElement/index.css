@@ -1,0 +1,35 @@
+.list-element{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.todo-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 10px;
+    background-color: #59cb96;
+    border-radius: 5px;
+    border-left: 7px solid #039551;
+}
+.todo{
+    color:#1d3128;
+    font-weight: 600;
+    width: 90%;
+    overflow: auto;
+}
+.del-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.del{
+    font-size: 20px;
+}
+.checkbox{
+    width: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
